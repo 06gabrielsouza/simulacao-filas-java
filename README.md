@@ -21,6 +21,7 @@ while (!fila.isEmpty()) {
     System.out.println(pessoa + " foi atendido(a).");
 }
 Observações:
+
 O método add() insere elementos no final da fila.
 
 O método remove() remove e retorna elementos do início da fila.
@@ -42,6 +43,7 @@ while (!filaPrioridade.isEmpty()) {
     System.out.println("Executando: " + filaPrioridade.poll());
 }
 Observações:
+
 Elementos com menor valor de prioridade são processados primeiro.
 
 A fila garante a execução por prioridade, mesmo que os elementos sejam inseridos fora de ordem.
@@ -70,14 +72,15 @@ while (!fila.isEmpty()) {
 }
 System.out.println("\nTodos os processos foram concluídos!");
 Observações:
+
 Cada processo executa por um tempo máximo igual ao quantum ou até ser concluído.
 
-Processos que ainda têm tempo restante após a execução retornam ao final da fila.
+Processos que ainda têm tempo restante retornam ao final da fila.
 
 O algoritmo garante uma execução justa e sequencial entre os processos.
 
 4. Estrutura do Projeto
-cpp
+css
 Copiar código
 simulacao-filas-java/
 │
@@ -87,9 +90,9 @@ simulacao-filas-java/
 │   └── RoundRobinSimulation.java
 │
 ├── prints/
-│   ├── queue.png
-│   ├── priority_queue.png
-│   └── round_robin.png
+│   ├── queueexample.png
+│   ├── priorityqueueexample.png
+│   └── roundrobinsimulation.png
 │
 └── README.md
 5. Como Executar
@@ -104,13 +107,14 @@ Importe a pasta clonada em uma IDE Java como IntelliJ ou Eclipse.
 Execute:
 Execute a classe Java desejada: QueueExample, PriorityQueueExample ou RoundRobinSimulation.
 
-## 6. Prints de Execução
+## 🖼️ 6. Prints de Execução
 
-**Fila FIFO:**
-![Fila FIFO](queueexample.png)
+### 📋 Fila (Queue FIFO)
+![Fila FIFO](prints/queueexample.png)
 
-**Priority Queue:**  
+### ⚡ Priority Queue
 ![Priority Queue](prints/priorityqueueexample.png)
 
-**Round Robin:**  
+### 🔁 Round Robin
 ![Round Robin](prints/roundrobinsimulation.png)
+
