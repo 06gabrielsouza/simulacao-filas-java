@@ -106,10 +106,11 @@ Execute a classe Java desejada: QueueExample, PriorityQueueExample ou RoundRobin
 
 ## 6. Prints de Execução
 
-[<div align="center">
-  
-| Fila FIFO | Priority Queue | Round Robin |
-|-----------|----------------|-------------|
-| <img src="prints/queue_execution.png" width="250"> | <img src="prints/priority_queue_execution.png" width="250"> | <img src="prints/round_robin_execution.png" width="250"> |
+**Fila FIFO:**
+![Fila FIFO](queueexample.png)
 
-</div>](https://raw.githubusercontent.com/seu-usuario/simulacao-filas-java/main/prints/queueexample.png)
+**Priority Queue:**  
+![Priority Queue](prints/priorityqueueexample.png)
+
+**Round Robin:**  
+![Round Robin](prints/roundrobinsimulation.png)
